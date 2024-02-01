@@ -59,7 +59,8 @@ The dataset contains Personally Identifiable Information (PII), which will be co
 ## Data Preparation and Cleaning
 
 1. Confirmed each column format, converting custom formats to standard number format to prevent analysis issues.
-![Standardized Number Format](Data Prep/1. standardized data types:format.png)
+![Standardized Number Format](Data Prep
+/1. standardized data types:format.png)
 
 
 2. Verified and corrected the spelling in the city column using the filter function.
