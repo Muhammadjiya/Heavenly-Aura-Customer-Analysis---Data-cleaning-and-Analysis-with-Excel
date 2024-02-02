@@ -55,6 +55,7 @@ The dataset contains Personally Identifiable Information (PII), which will be co
 ## Assumptions
 
 1. Customer names may be repeated in the sales dataset, and duplicates will not be removed due to the nature of the data.
+2. All calculations are in Nigerian Naira (₦)
 
 ## Data Preparation and Cleaning
 
@@ -64,28 +65,28 @@ The dataset contains Personally Identifiable Information (PII), which will be co
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/2.%20found%20and%20correct%20a%20mispelling.png)
 3. Standardized gender column by replacing abbreviations of 'M' and 'F' with "Male" and "Female."
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/3.%20Unabreviated%20the%20gender%20column.png)
-4. Extracted the month from the date column using the text function. This will be useful to calculate the total monthly sales 
+4. Extracted the month from the date column using the text function. This will be useful to calculate the total monthly sales. 
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/4.%20extracted%20month%20from%20date%20field%20.png)
 5. Removed unnecessary columns, such as phone numbers and addresses.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/5.%20deleted%20unnecessary%20columns%20.png)
 ## Analysis
 
 1. **Monthly Sales:**
-   - Utilized =unique and sumif functions on the month and revenue columns. The month with the highest sales 
+   - Utilized unique and sumif functions on the month and revenue columns. The month with the highest sales was August with 302,000 while February was the lowest with only 2,000.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/1.%20sales%20per%20month.png)
 2. **Top Customer:**
-   - Used unique and sumif functions on order quantity and revenue columns, coding customer names for confidentiality.
+   - Used unique and sumif functions on order quantity and revenue columns, coding customer names for confidentiality.The top customer with customerID of 1036 had the highest purchse of 5 cartons and generated a revenue of 82,500.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/2.%20customer%20with%20highest%20sales.png)
 3. **Total Debt:**
-   - Summed the balance column to calculate a total debt of $98,800.
+   - Summed the balance column to calculate a total debt of 98,800.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/3.%20total%20debt%20owed.png)
 4. **Top 3 Locations:**
-   - Utilized unique and sumif functions with location and amount paid columns.
+   - Utilized unique and sumif functions with location and amount paid columns. The top 3 locations with the highest sales were Niger, Abuja and Lagos with revenue of 660,700, 94,000 and 50,000 respectively.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/4.%203%20locations%20with%20highest%20sales%20.png)
 5. **Gender-based Purchases:**
-   - Used sumif with gender and amount paid columns to determine that females purchased almost twice as much as males.
+   - Used sumif with gender and amount paid columns to determine that females purchased almost twice as much as males with females making a total purchase of 612,200 and the males with 314,900.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/5.%20male%20vs%20female%20purchase.png)
 5. **Orders Servicing Ability:**
-   - Used simple arithmetic to sum the quantity ordered and quantity delivered columns and then checked the difference betweem them. a difference of 0 was obtained.
+   - Used simple arithmetic to sum the quantity ordered and quantity delivered columns and then checked the difference betweem them. a difference of 0 was obtained. The company is able to fulfil all the orders it recieved during this period.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/6.%20met%20up%20with%20customer%20orders.png)
 This comprehensive analysis aims to provide actionable insights into Heavenly Aura's sales data, fulfilling stakeholder requirements while maintaining privacy and confidentiality.
