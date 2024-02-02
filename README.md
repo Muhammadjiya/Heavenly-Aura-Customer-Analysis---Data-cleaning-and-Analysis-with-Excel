@@ -59,8 +59,7 @@ The dataset contains Personally Identifiable Information (PII), which will be co
 ## Data Preparation and Cleaning
 
 1. Confirmed each column format, converting custom formats to standard number format to prevent analysis issues.
-![Standardized Number Format](Data Prep
-/1. standardized data types:format.png)
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/1.%20standardized%20data%20types%3Aformat.png)
 
 
 2. Verified and corrected the spelling in the city column using the filter function.
