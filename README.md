@@ -60,28 +60,32 @@ The dataset contains Personally Identifiable Information (PII), which will be co
 
 1. Confirmed each column format, converting custom formats to standard number format to prevent analysis issues.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/1.%20standardized%20data%20types%3Aformat.png)
-
-
 2. Verified and corrected the spelling in the city column using the filter function.
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/2.%20found%20and%20correct%20a%20mispelling.png)
 3. Standardized gender data by replacing abbreviations with "Male" and "Female."
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/3.%20Unabreviated%20the%20gender%20column.png)
 4. Extracted the month from the date column using the text function.
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/4.%20extracted%20month%20from%20date%20field%20.png)
 5. Removed unnecessary columns, such as phone numbers and addresses.
-
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/5.%20deleted%20unnecessary%20columns%20.png)
 ## Analysis
 
 1. **Monthly Sales:**
    - Utilized unique and sumif functions on the month and revenue columns.
-
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/1.%20sales%20per%20month.png)
 2. **Top Customer:**
    - Used unique and sumif functions on order quantity and revenue columns, coding customer names for confidentiality.
-
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/2.%20customer%20with%20highest%20sales.png)
 3. **Total Debt:**
    - Summed the balance column to calculate a total debt of $98,800.
-
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/3.%20total%20debt%20owed.png)
 4. **Top 3 Locations:**
    - Utilized unique and sumif functions with location and amount paid columns.
-
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/4.%203%20locations%20with%20highest%20sales%20.png)
 5. **Gender-based Purchases:**
    - Used sumif with gender and amount paid columns to determine that females purchased almost twice as much as males.
-
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/5.%20male%20vs%20female%20purchase.png)
+5. **Orders Servicing Ability:**
+   - Used simple arithmetic to sum the quantity ordered and quantity delivered columns and then checked the difference betweem them. a difference of 0 was obtained.
+![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/6.%20met%20up%20with%20customer%20orders.png)
 This comprehensive analysis aims to provide actionable insights into Heavenly Aura's sales data, fulfilling stakeholder requirements while maintaining privacy and confidentiality.
