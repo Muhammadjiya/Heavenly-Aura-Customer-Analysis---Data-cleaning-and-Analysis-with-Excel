@@ -60,18 +60,18 @@ The dataset contains Personally Identifiable Information (PII), which will be co
 
 1. Confirmed each column format, converting custom formats to standard number format to prevent analysis issues.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/1.%20standardized%20data%20types%3Aformat.png)
-2. Verified and corrected the spelling in the city column using the filter function.
+2. Verified and corrected the spellings in the city column using the filter function.one misspeling of 'port harcourt' was found and corrected.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/2.%20found%20and%20correct%20a%20mispelling.png)
-3. Standardized gender data by replacing abbreviations with "Male" and "Female."
+3. Standardized gender column by replacing abbreviations of 'M' and 'F' with "Male" and "Female."
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/3.%20Unabreviated%20the%20gender%20column.png)
-4. Extracted the month from the date column using the text function.
+4. Extracted the month from the date column using the text function. This will be useful to calculate the total monthly sales 
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/4.%20extracted%20month%20from%20date%20field%20.png)
 5. Removed unnecessary columns, such as phone numbers and addresses.
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Data%20Prep/5.%20deleted%20unnecessary%20columns%20.png)
 ## Analysis
 
 1. **Monthly Sales:**
-   - Utilized unique and sumif functions on the month and revenue columns.
+   - Utilized =unique and sumif functions on the month and revenue columns. The month with the highest sales 
 ![](https://github.com/Muhammadjiya/Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel/blob/main/Analysis/1.%20sales%20per%20month.png)
 2. **Top Customer:**
    - Used unique and sumif functions on order quantity and revenue columns, coding customer names for confidentiality.
