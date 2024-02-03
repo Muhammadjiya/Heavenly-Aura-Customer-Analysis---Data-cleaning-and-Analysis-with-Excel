@@ -1,6 +1,6 @@
-# Heavenly-Aura-Customer-Analysis---Data-cleaning-and-Analysis-with-Excel
+# Portfolio Projects
 
-# Heavenly Aura Data Analysis Documentation
+# Heavenly Aura Data Analysis Documentation - Microsoft Excel 
 
 **Company Names:**
 - Mumtaz and Unbated Enterprise
