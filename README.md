@@ -1,5 +1,3 @@
-# Portfolio Projects
-
 # Heavenly Aura Data Analysis Documentation - Microsoft Excel 
 
 **Company Names:**
